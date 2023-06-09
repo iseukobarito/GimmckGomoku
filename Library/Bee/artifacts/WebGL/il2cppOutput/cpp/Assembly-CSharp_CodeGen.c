@@ -1,0 +1,205 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Gomoku::changeLevel(System.Int32)
+extern void Gomoku_changeLevel_m4AAC413CE7B3718093AA51EBAAFEFEAAE6F6912D (void);
+// 0x00000002 System.Void Gomoku::Start()
+extern void Gomoku_Start_m5DF6829775EE8121369A80F48295B2428DA5D11C (void);
+// 0x00000003 System.Void Gomoku::Restart()
+extern void Gomoku_Restart_m1C17DF1C3DB82901BE63F6CCDDD5C559C9D60E95 (void);
+// 0x00000004 System.Void Gomoku::Init()
+extern void Gomoku_Init_mE18B4F370938392926260E6312463AD1AEDBEF9B (void);
+// 0x00000005 System.Void Gomoku::NullInit()
+extern void Gomoku_NullInit_m512435C0F460714EE815014BC2C3059F5F8A4E4C (void);
+// 0x00000006 System.Void Gomoku::dammyStoneDisp(System.Boolean)
+extern void Gomoku_dammyStoneDisp_mB8E1AADA38092CDF42DDDD28551FF4C29A76E2F4 (void);
+// 0x00000007 System.Void Gomoku::dammyStoneMove()
+extern void Gomoku_dammyStoneMove_mB264C98B6415C26C1000A4DAC1F178B9BC9ABCE1 (void);
+// 0x00000008 System.Void Gomoku::realPut()
+extern void Gomoku_realPut_m44BAD78E41A5D1A13E939AF3BCD821D83C6AC33B (void);
+// 0x00000009 System.Void Gomoku::rotate()
+extern void Gomoku_rotate_m3C7EF14AF3E107888FF40FF65CABD094F5FA5C70 (void);
+// 0x0000000A System.Void Gomoku::up()
+extern void Gomoku_up_m46C9506DC637A54FA9BB09F480D1836302413D87 (void);
+// 0x0000000B System.Void Gomoku::down()
+extern void Gomoku_down_mAB34CDE90EB5C221E16E4AD40A319E4AE514D937 (void);
+// 0x0000000C System.Void Gomoku::left()
+extern void Gomoku_left_m34B1922BBF5950AFBCAD2632AFEDF51E703C9C36 (void);
+// 0x0000000D System.Void Gomoku::right()
+extern void Gomoku_right_m20B1BEA98DC826716CE22219A65DD18FE7803F77 (void);
+// 0x0000000E System.Void Gomoku::openMenu()
+extern void Gomoku_openMenu_m86D728881DF2C7A59D16D692859E9E62E3BE1A15 (void);
+// 0x0000000F System.Void Gomoku::closeMenu()
+extern void Gomoku_closeMenu_m9F22C705A82E6CF993D4BF7C22CEFB6724051AB3 (void);
+// 0x00000010 System.Void Gomoku::put(System.Int32,System.Int32)
+extern void Gomoku_put_m9F13A854D0575E8262FE2C881722F1D66D2A31DE (void);
+// 0x00000011 System.Void Gomoku::lineCheck()
+extern void Gomoku_lineCheck_m612E9768B35E9577DB7F608BFC54F692459076C6 (void);
+// 0x00000012 System.Void Gomoku::Finish(System.Boolean)
+extern void Gomoku_Finish_mA068E09A0CBB206C1E7136C88E297068C213A040 (void);
+// 0x00000013 System.Void Gomoku::OnPlayableDirectorStopped(UnityEngine.Playables.PlayableDirector)
+extern void Gomoku_OnPlayableDirectorStopped_mEBC9976EF6F798C162089D4887646CA8093C9417 (void);
+// 0x00000014 System.Void Gomoku::ToTitle()
+extern void Gomoku_ToTitle_mE88A9E9E9881B2CA1907023AD806D768CD6D70F3 (void);
+// 0x00000015 System.Boolean Gomoku::CanPut(System.Int32,System.Int32)
+extern void Gomoku_CanPut_m8767BEC60E96268FEF8BC1D99C591062CE23E041 (void);
+// 0x00000016 System.Void Gomoku::Update()
+extern void Gomoku_Update_mBC380994E90B0F4EE8FD47AE9CC8960BCB49961D (void);
+// 0x00000017 System.Void Gomoku::sound()
+extern void Gomoku_sound_m2344BC5490D8CE22854CC8813BB1C68A5FD6C6CF (void);
+// 0x00000018 System.Void Gomoku::putSound()
+extern void Gomoku_putSound_m07EBA020ACA9B0F7251DEF3976E97AD83D2502BF (void);
+// 0x00000019 System.Void Gomoku::finishSound()
+extern void Gomoku_finishSound_m03BA90AAE97AC3CC109DE28769DD469C655D555F (void);
+// 0x0000001A System.Void Gomoku::BGM()
+extern void Gomoku_BGM_mEC1EF82069CF00BFE0279A0209B67C37AF819348 (void);
+// 0x0000001B System.Void Gomoku::BGMStop()
+extern void Gomoku_BGMStop_mF550D8ABE58D5FD3FCC6974AF90FE954B54BFB1F (void);
+// 0x0000001C System.Void Gomoku::.ctor()
+extern void Gomoku__ctor_mD909A8341D28CDFE7B359507E43D392B96BAA70C (void);
+// 0x0000001D System.Void Gomoku::.cctor()
+extern void Gomoku__cctor_m55C7204B1D9CF9DAF2EC097DF98D9A4C8C8FECC7 (void);
+// 0x0000001E System.Void reset::Reset()
+extern void reset_Reset_m4C53CAB2DBA9E0BDA6FE6A6978219573608835CE (void);
+// 0x0000001F System.Void reset::realPut()
+extern void reset_realPut_m1EFD279FCDD5EC34FFF1943E2A262A84DC744D4A (void);
+// 0x00000020 System.Void reset::.ctor()
+extern void reset__ctor_m343F81346AE55B1A9BAD42BC8749E10E09BEE76D (void);
+// 0x00000021 System.Void Title::Start()
+extern void Title_Start_m7C4287FBCE727AF724A391DCD73B245F4F83F842 (void);
+// 0x00000022 System.Void Title::EasyGameStart()
+extern void Title_EasyGameStart_mF120F4628DF7F4352F8F0C3E4AAE39239AED8A34 (void);
+// 0x00000023 System.Void Title::NormalGameStart()
+extern void Title_NormalGameStart_m0B3B681C677B37A307132D7EBBC45381FA1342F5 (void);
+// 0x00000024 System.Void Title::HardGameStart()
+extern void Title_HardGameStart_mBA1931FA7507FDD78CEC16E3E73BCFFE8ACB54BE (void);
+// 0x00000025 System.Void Title::openLevelSelect()
+extern void Title_openLevelSelect_m9F82CFF6BF85A92CC92C93734CB17FE034546728 (void);
+// 0x00000026 System.Void Title::closeLevelSelect()
+extern void Title_closeLevelSelect_m1B3262CAFEC462A4BA45FD3D4C65B54A9CC77D55 (void);
+// 0x00000027 System.Void Title::sound()
+extern void Title_sound_mABD64BEC005CBECFDCC1DEE55F58CF1B310E3E7D (void);
+// 0x00000028 System.Void Title::Shake()
+extern void Title_Shake_mBDD28E4BA756F0C9D35F3455DD347A6D40C2B600 (void);
+// 0x00000029 System.Void Title::.ctor()
+extern void Title__ctor_mD048B1928FB56935584ECB8B23993B2F8ED77772 (void);
+static Il2CppMethodPointer s_methodPointers[41] = 
+{
+	Gomoku_changeLevel_m4AAC413CE7B3718093AA51EBAAFEFEAAE6F6912D,
+	Gomoku_Start_m5DF6829775EE8121369A80F48295B2428DA5D11C,
+	Gomoku_Restart_m1C17DF1C3DB82901BE63F6CCDDD5C559C9D60E95,
+	Gomoku_Init_mE18B4F370938392926260E6312463AD1AEDBEF9B,
+	Gomoku_NullInit_m512435C0F460714EE815014BC2C3059F5F8A4E4C,
+	Gomoku_dammyStoneDisp_mB8E1AADA38092CDF42DDDD28551FF4C29A76E2F4,
+	Gomoku_dammyStoneMove_mB264C98B6415C26C1000A4DAC1F178B9BC9ABCE1,
+	Gomoku_realPut_m44BAD78E41A5D1A13E939AF3BCD821D83C6AC33B,
+	Gomoku_rotate_m3C7EF14AF3E107888FF40FF65CABD094F5FA5C70,
+	Gomoku_up_m46C9506DC637A54FA9BB09F480D1836302413D87,
+	Gomoku_down_mAB34CDE90EB5C221E16E4AD40A319E4AE514D937,
+	Gomoku_left_m34B1922BBF5950AFBCAD2632AFEDF51E703C9C36,
+	Gomoku_right_m20B1BEA98DC826716CE22219A65DD18FE7803F77,
+	Gomoku_openMenu_m86D728881DF2C7A59D16D692859E9E62E3BE1A15,
+	Gomoku_closeMenu_m9F22C705A82E6CF993D4BF7C22CEFB6724051AB3,
+	Gomoku_put_m9F13A854D0575E8262FE2C881722F1D66D2A31DE,
+	Gomoku_lineCheck_m612E9768B35E9577DB7F608BFC54F692459076C6,
+	Gomoku_Finish_mA068E09A0CBB206C1E7136C88E297068C213A040,
+	Gomoku_OnPlayableDirectorStopped_mEBC9976EF6F798C162089D4887646CA8093C9417,
+	Gomoku_ToTitle_mE88A9E9E9881B2CA1907023AD806D768CD6D70F3,
+	Gomoku_CanPut_m8767BEC60E96268FEF8BC1D99C591062CE23E041,
+	Gomoku_Update_mBC380994E90B0F4EE8FD47AE9CC8960BCB49961D,
+	Gomoku_sound_m2344BC5490D8CE22854CC8813BB1C68A5FD6C6CF,
+	Gomoku_putSound_m07EBA020ACA9B0F7251DEF3976E97AD83D2502BF,
+	Gomoku_finishSound_m03BA90AAE97AC3CC109DE28769DD469C655D555F,
+	Gomoku_BGM_mEC1EF82069CF00BFE0279A0209B67C37AF819348,
+	Gomoku_BGMStop_mF550D8ABE58D5FD3FCC6974AF90FE954B54BFB1F,
+	Gomoku__ctor_mD909A8341D28CDFE7B359507E43D392B96BAA70C,
+	Gomoku__cctor_m55C7204B1D9CF9DAF2EC097DF98D9A4C8C8FECC7,
+	reset_Reset_m4C53CAB2DBA9E0BDA6FE6A6978219573608835CE,
+	reset_realPut_m1EFD279FCDD5EC34FFF1943E2A262A84DC744D4A,
+	reset__ctor_m343F81346AE55B1A9BAD42BC8749E10E09BEE76D,
+	Title_Start_m7C4287FBCE727AF724A391DCD73B245F4F83F842,
+	Title_EasyGameStart_mF120F4628DF7F4352F8F0C3E4AAE39239AED8A34,
+	Title_NormalGameStart_m0B3B681C677B37A307132D7EBBC45381FA1342F5,
+	Title_HardGameStart_mBA1931FA7507FDD78CEC16E3E73BCFFE8ACB54BE,
+	Title_openLevelSelect_m9F82CFF6BF85A92CC92C93734CB17FE034546728,
+	Title_closeLevelSelect_m1B3262CAFEC462A4BA45FD3D4C65B54A9CC77D55,
+	Title_sound_mABD64BEC005CBECFDCC1DEE55F58CF1B310E3E7D,
+	Title_Shake_mBDD28E4BA756F0C9D35F3455DD347A6D40C2B600,
+	Title__ctor_mD048B1928FB56935584ECB8B23993B2F8ED77772,
+};
+static const int32_t s_InvokerIndices[41] = 
+{
+	5539,
+	3672,
+	3672,
+	3672,
+	3672,
+	2947,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	1593,
+	3672,
+	2947,
+	3007,
+	3672,
+	1054,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	5651,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+	3672,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	41,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
